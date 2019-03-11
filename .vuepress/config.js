@@ -1,5 +1,5 @@
 module.exports = {
-	base: '/w3-notifications/notifications-doc-site/',
+	base: '/VuePress-template/',
 	title: 'Notifications Documentation',
 	dest: './docs',
 	themeConfig: {
