@@ -4,7 +4,7 @@ Use [VuePress](https://vuepress.vuejs.org/) to built a static website and deploy
 
 ## Demo
 
-See this page on https://pages.github.ibm.com/w3-notifications/notifications-doc-site/
+See this page on https://wei-xia.github.io/VuePress-template/
 
 ## Start
 

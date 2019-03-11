@@ -1,6 +1,6 @@
 module.exports = {
 	base: '/VuePress-template/',
-	title: 'Notifications Documentation',
+	title: 'VuePress Template',
 	dest: './docs',
 	themeConfig: {
 		nav: [
@@ -9,20 +9,27 @@ module.exports = {
 			{ text: "Multiple Pages", link: "/multiplePages/" },
 		],
 		sidebar: {
-			'/multiplePages/': genSidebarConfigDesign('Multiple Pages')
+			'/multiplePages/': genSidebarConfig('Multiple Pages')
 		},
 		lastUpdated: 'Last Updated',
 		displayAllHeaders: true,
-		repo: 'https://github.ibm.com/w3-notifications/notifications-doc-site/',
+		repo: 'Wei-Xia/VuePress-template',
 		repoLabel: 'Contribute!',
-		docsRepo: 'https://github.ibm.com/w3-notifications/notifications-doc-site/',
+		docsRepo: 'Wei-Xia/VuePress-template/',
 		docsBranch: 'master',
 		editLinks: true,
-		editLinkText: 'Help us improve this page!'
+		editLinkText: 'Help us improve this page!',
+		serviceWorker: {
+			updatePopup: true,
+			updatePopup: { 
+				message: "New content is available.", 
+				buttonText: "Refresh" 
+			}
+		}
 	},
 };
 
-function genSidebarConfigDesign (title) {
+function genSidebarConfig (title) {
 	return [
 		{
 			title,
