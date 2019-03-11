@@ -45,3 +45,7 @@ or
 ```sh
 yarn build
 ```
+
+::: warning Warning
+Make sure node version >= 8.0
+:::
