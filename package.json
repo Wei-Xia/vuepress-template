@@ -1,0 +1,11 @@
+{
+	"name": "notifications-doc-site",
+	"version": "1.0.0",
+	"scripts": {
+		"start": "vuepress dev",
+		"build": "vuepress build"
+	},
+	"devDependencies": {
+		"vuepress": "0.14.10"
+	}
+}
