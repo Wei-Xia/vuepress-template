@@ -1,5 +1,5 @@
 module.exports = {
-	base: '/VuePress-template/',
+	base: '/vuepress-template/',
 	title: 'VuePress Template',
 	dest: './docs',
 	themeConfig: {
@@ -21,9 +21,9 @@ module.exports = {
 		},
 		lastUpdated: 'Last Updated',
 		displayAllHeaders: true,
-		repo: 'Wei-Xia/VuePress-template',
+		repo: 'Wei-Xia/vuepress-template',
 		repoLabel: 'Contribute!',
-		docsRepo: 'Wei-Xia/VuePress-template/',
+		docsRepo: 'Wei-Xia/vuepress-template/',
 		docsBranch: 'master',
 		editLinks: true,
 		editLinkText: 'Help us improve this page!',
