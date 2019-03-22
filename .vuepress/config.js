@@ -4,9 +4,17 @@ module.exports = {
 	dest: './docs',
 	themeConfig: {
 		nav: [
-			{ text: "Home", link: "/" },
-			{ text: "Single Page", link: "/singlePage/" },
-			{ text: "Multiple Pages", link: "/multiplePages/" },
+			{ text: 'Home', link: '/' },
+			{ text: 'Single Page', link: '/singlePage/' },
+			{ text: 'Multiple Pages', link: '/multiplePages/' },
+			{
+				text: 'Dropdown Menus',
+				items: [
+					{ text: 'Single Page', link: '/singlePage/' },
+					{ text: 'Single Page', link: '/singlePage/' },
+					{ text: 'Single Page', link: '/singlePage/' }
+				]
+			}
 		],
 		sidebar: {
 			'/multiplePages/': genSidebarConfig('Multiple Pages')
@@ -21,24 +29,20 @@ module.exports = {
 		editLinkText: 'Help us improve this page!',
 		serviceWorker: {
 			updatePopup: true,
-			updatePopup: { 
-				message: "New content is available.", 
-				buttonText: "Refresh" 
+			updatePopup: {
+				message: 'New content is available.',
+				buttonText: 'Refresh'
 			}
 		}
-	},
+	}
 };
 
-function genSidebarConfig (title) {
+function genSidebarConfig(title) {
 	return [
 		{
 			title,
 			collapsable: false,
-			children: [
-				'',
-				'pageOne',
-				'pageTwo',
-			]
+			children: ['', 'pageOne', 'pageTwo']
 		}
-	]
+	];
 }
