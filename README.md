@@ -4,7 +4,7 @@ Use [VuePress](https://vuepress.vuejs.org/) to built a static website and deploy
 
 ## Demo
 
-See this page on https://wei-xia.github.io/VuePress-template/
+See this page on https://wei-xia.github.io/vuepress-template/
 
 ## Start
 
