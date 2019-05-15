@@ -1,51 +1,27 @@
-# VuePress Github Pages
+---
+home: true
+heroImage: https://vuepress.vuejs.org/hero.png
+# heroImage: logo.png
+actionText: Get Started →
+actionLink: /guide/
+features:
+- title: Fast
+  details: Minimal setup with markdown-centered project structure helps you focus on writing.
+- title: Versatile
+  details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
+- title: Efficient
+  details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
+- title: Highly Components
+  details: Minimal setup with markdown-centered project structure helps you focus on writing.
+- title: All In One
+  details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
+- title: Lazy On
+  details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
+footer: Apache 2 Licensed | Copyright © 2018-present bslience
+---
 
-Use [VuePress](https://vuepress.vuejs.org/) to built a static website and deploy on [Github Pages](https://pages.github.com/).
+## Getting Started
 
-## Demo
-
-See this page on https://wei-xia.github.io/vuepress-template/
-
-## Start
-
-Make sure that you have NodeJS and NPM or Yarn installed.
-
-## Install
-
-```sh
-npm install
+```bash
+pip install fastweb
 ```
-
-or
-
-```sh
-yarn
-```
-
-## Develop
-
-```sh
-npm run start
-```
-
-or
-
-```sh
-yarn start
-```
-
-## Build
-
-```sh
-npm run build
-```
-
-or
-
-```sh
-yarn build
-```
-
-::: warning Warning
-Make sure node version >= 8.0
-:::
